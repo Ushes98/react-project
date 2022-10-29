@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+:root{
+      --green: #61CE70;
+      --blue: #51AEEF;
+      --blue1: #084F89;
+}
+.nav-item:hover{
+      color: blue;
+}
+ul{
+      list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      font-weight: 500;
+      padding: 20px;
+}
+.buy{
+      color: white;
+      font-weight: 500;
+      background: #61CE70;
+      padding: 12px 30px;
+      border-radius: 6px;
+      transition: 0.6s ease;
+}
+.buy:hover{
+      color: var(--green);
+      border:1px solid var(--green);
+      background-color: white;
+      cursor: pointer;
+}
+.demo{
+      color: var(--green);
+      border:1px solid var(--green);
+      background-color: #fff;
+      transition: 0.6s ease;
+      margin: 0 10px;
+      padding:13px 30px;
+      border-radius: 10px;
+}
+.demo:hover{
+      color:#fff;
+      background-color: var(--green);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head{
+      padding: 20px 0;
+      color: var(--blue);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.real-state-header{
+      padding: 20px 0;
 }
-
-.App-link {
-  color: #61dafb;
+.real-state-p{
+      font-size: 20px;
+      color: gray;
+      padding: 20px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog{
+      background-color: #E8F4F9;
+}
+.footer{
+      background-color: #084F89;
+      color: white;
+}
+.footer .box{
+      border: 2px solid #fff;
+      border-radius: 10px;
+      width: 80%;
+      padding-top: 20px;
+}
+.copy{
+      background-color: #004274;
+      color: #fff;
+      padding: 20px 0;
+}
+.demo1  .head{
+      letter-spacing: 4px;
+      font-weight: 500;
+}
+.demo-img{
+      transition: .5s ease all;
+}
+.demo-img:hover{
+      transform: translateY(-20px);
+}
+.mls-list{
+      list-style-type: disc;
+}
+.mls-top{
+      border-radius: 0 0 100px 100px;
+      background-color: #D1F0FC;
+}
+.icon-wrapper{
+      font-size: 3rem;
+      color: var(--blue);
+}
+.mls-box{
+      margin-bottom: -100px;
+}
+.mls-box-about h4{
+      font-size: 1rem;
+      font-weight: 600;
+}
+.mls-box-about p{
+      font-size: .9rem;
+      color: grey;
+}
+.article h6{
+      letter-spacing: 2px;
+}
+.note{
+      background-color: #D1F0FC;
+}
+.mls-btn{
+      background-color: #00AEEF;
+      border-radius: 5px;
+}
+.faq-list{
+      list-style: none;
+      line-height:  60px;
+}
+@media (max-width: 991px) {
+      .real-state-header{
+            font-size: 2rem;
+      }
+      .real-state-p{
+            font-size: 16px;
+      }
+      .top h1{
+            font-size: 2rem;
+      }
+      .navbar-brand{
+            display: none;
+      }
+      .a-buy{
+            display: none !important;
+      }
+      .demo1 .row .col-lg-4{
+            text-align: center !important;
+      }
+      .blog .row .col-lg-4{
+            padding-top: 0 !important;
+      }
+      .trend .row .col-lg-6 .row .col-sm-6{
+            padding: 20px 0;
+      }
+      .tips .row .col-lg-6{
+            padding: 10px;
+      }
+      .footer .row .col-lg-4{
+           width: 60%;
+           text-align: center;
+           margin: auto;
+      }
+      h1{
+            font-size: 2rem !important;
+      }
+      .mls-list a{
+            font-size: .8rem;
+      }
+      .mls-box{
+            margin-bottom: 40px;
+      }
+      .blog h6{
+            display: none;
+      }
+}
+@media (max-width: 767px) {
+      .footer .row .col-lg-4{
+            width: 80%;
+            text-align: center;
+            margin: auto;
+       }
+       h1{
+            font-size: 1.5rem !important;
+       }
+}
+@media (max-width: 480px){
+      h1{
+            font-size: 1rem !important;
+      }
+      p{
+            font-size: 15px !important    ;
+      }
+      .footer .row .col-lg-4{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+       }
+       .footer .row .col-lg-4 .box{
+            width: 100%;
+       }
 }
