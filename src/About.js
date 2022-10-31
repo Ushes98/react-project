@@ -5,7 +5,6 @@ import bg1 from "./Group-3.png"
 export default function About() {
       return (
             <>
-
                   <div className='about py-5'>
                         <div className="container-fluid">
                               <div className="d-flex">

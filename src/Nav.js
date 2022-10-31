@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link, Routes, Route } from "react-router-dom"
+import { Link, Routes, Route} from "react-router-dom"
+import logo from './house.png'
 import Demo from './Demo'
 import Mls from "./Mls"
 import Blog from './Blog'
 import About from './About'
-import logo from './house.png'
 export default function Nav() {
   return (
     <>
@@ -39,6 +39,7 @@ export default function Nav() {
       </nav>
       <Routes>
         <Route path='/' element={<About />}></Route>
+        <Route path="react-project" element={<About />}></Route>
         <Route path='demo' element={<Demo />}></Route>
         <Route path='mls' element={<Mls />}></Route>
         <Route path='blog' element={<Blog />}></Route>
