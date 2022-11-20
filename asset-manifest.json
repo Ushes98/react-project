@@ -1,29 +1,17 @@
 {
   "files": {
     "main.css": "/react-project/static/css/main.ab10fe58.css",
-    "main.js": "/react-project/static/js/main.7032c370.js",
+    "main.js": "/react-project/static/js/main.42ff51c4.js",
     "static/js/787.a2bf511c.chunk.js": "/react-project/static/js/787.a2bf511c.chunk.js",
-    "static/media/screen.jpg": "/react-project/static/media/screen.16580999348dc8b34ef7.jpg",
     "static/media/houzez-default-demo.png": "/react-project/static/media/houzez-default-demo.e1fdbadeaff04631930b.png",
-    "static/media/wordpress.jpg": "/react-project/static/media/wordpress.ab802bc3a67539f48e7c.jpg",
-    "static/media/blog.jpg": "/react-project/static/media/blog.19ea150347343f21417f.jpg",
-    "static/media/mistakes.jpg": "/react-project/static/media/mistakes.6295df728deda258558e.jpg",
     "static/media/Group-53.png": "/react-project/static/media/Group-53.71890b44568ea605c4f9.png",
     "static/media/bg-1.png": "/react-project/static/media/bg-1.8c39c9638977303614be.png",
     "static/media/group55.png": "/react-project/static/media/group55.c571964961a924a4568e.png",
     "static/media/group.png": "/react-project/static/media/group.f1f7145fdedb5b77b00f.png",
     "static/media/north.svg": "/react-project/static/media/north.a763d70ee659c09e3221d8803718b887.svg",
     "static/media/Group-57.png": "/react-project/static/media/Group-57.a4770d030db50bda7914.png",
-    "static/media/monetize.jpg": "/react-project/static/media/monetize.86c2f3d8eeea2b2cb471.jpg",
-    "static/media/closeup.jpg": "/react-project/static/media/closeup.8d5a8957381498739555.jpg",
-    "static/media/improve.jpg": "/react-project/static/media/improve.688d45d383feff0fd812.jpg",
-    "static/media/guide.jpg": "/react-project/static/media/guide.bd3a98548c675f30ff5d.jpg",
-    "static/media/strategy.jpg": "/react-project/static/media/strategy.fd8de24e8c6e5f913581.jpg",
     "static/media/realtors.svg": "/react-project/static/media/realtors.769c6dc6d5a8988656031974d9eefd05.svg",
     "static/media/san.svg": "/react-project/static/media/san.4aecb9a31d7c83664908e00c4bb0ef93.svg",
-    "static/media/announce.jpg": "/react-project/static/media/announce.2da0de011def4fe77bc8.jpg",
-    "static/media/agent.jpg": "/react-project/static/media/agent.0fd27b75e93afb9fccb8.jpg",
-    "static/media/chatbot.jpg": "/react-project/static/media/chatbot.359b76fc0dfc4cd41264.jpg",
     "static/media/scw.svg": "/react-project/static/media/scw.f873081de2d46b923f6d5c8faa15a198.svg",
     "static/media/Group-3.png": "/react-project/static/media/Group-3.9b128919691ba6698c43.png",
     "static/media/canopymls.svg": "/react-project/static/media/canopymls.55e05d20cf100b146618e12171970023.svg",
@@ -33,11 +21,11 @@
     "static/media/MRED.webp": "/react-project/static/media/MRED.2413bf1f00c6f28a9dbb.webp",
     "index.html": "/react-project/index.html",
     "main.ab10fe58.css.map": "/react-project/static/css/main.ab10fe58.css.map",
-    "main.7032c370.js.map": "/react-project/static/js/main.7032c370.js.map",
+    "main.42ff51c4.js.map": "/react-project/static/js/main.42ff51c4.js.map",
     "787.a2bf511c.chunk.js.map": "/react-project/static/js/787.a2bf511c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab10fe58.css",
-    "static/js/main.7032c370.js"
+    "static/js/main.42ff51c4.js"
   ]
 }
